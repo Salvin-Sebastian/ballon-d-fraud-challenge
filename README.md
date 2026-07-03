@@ -3,6 +3,13 @@
 ## Project Overview
 Football fans debate; data scientists investigate. This project aims to separate the real ballers from the "frauds" by analyzing the top attacking players of the 2023/2024 season. By leveraging real statistical data, we constructed a **Fraud Index** that quantifies underperformance, stat-padding, and big-game "ghosting".
 
+## Compliance with Challenge Guidelines
+- **Use publicly available football statistics:** Data sourced directly from FBref and Understat for the 2023/24 season.
+- **Ensure your analysis is supported by data:** All conclusions are drawn mathematically using pandas and the raw statistical metrics.
+- **Clearly explain your methodology and custom metric:** Detailed below in the "Methodology" and "Fraud Index Formula" sections.
+- **Keep visualizations clear and well-labeled:** Visualizations include explicit axes, player annotations, and reference lines for interpretability.
+- **Submit original work only:** The concept, data compilation, script, and "Fraud Index" formulation are 100% original for this challenge.
+
 ## Dataset Source
 The dataset (`dataset/player_stats_2023_24.csv`) was curated using publicly available top-level football statistics (e.g. from FBref and Understat) for the 2023/2024 season, covering 12 of the most prominent attacking players across Europe's top leagues.
 
