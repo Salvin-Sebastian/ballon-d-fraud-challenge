@@ -59,6 +59,8 @@ for i in range(len(df)):
     plt.text(df['xG'][i]+0.3, df['Goals'][i], df['Player'][i], fontsize=9)
 
 plt.title('Actual Goals vs Expected Goals (xG)', fontsize=14)
+plt.xlabel('Expected Goals (xG)', fontsize=12)
+plt.ylabel('Actual Goals', fontsize=12)
 plt.legend()
 plt.tight_layout()
 plt.savefig('visualizations/goals_vs_xg.png')
